@@ -1,0 +1,15 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+files:
+    ignore:
+        - 'assets/img/*'
+        - 'assets/js/*'
+        - 'LICENSE'
+        - '.gitignore'
+        - 'README.md'
+branches:    
+    ignore:
+        - 'master'        
+fixers:
+    enable: true
