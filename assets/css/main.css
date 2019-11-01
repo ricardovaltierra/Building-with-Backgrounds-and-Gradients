@@ -240,7 +240,8 @@ ul {
 
 .second {
   z-index: 99;   
-  width: 80%;
+  width: 100%;
+  text-align: center;
 }
 
 .main-txt h1 {

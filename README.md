@@ -12,16 +12,6 @@ Page design with background images and gradient elements
 * [Acknowledgements](#acknowledgements)
 * [Commit Summary](#commit-summary)
 
-## Table of Contents
-
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-* [Commit Summary](#commit-summary)
-
 ## About The Project
 
 ![Screenshot Image](images/screenshot.png)

@@ -5,6 +5,7 @@ files:
     ignore:
         - 'assets/img/*'
         - 'assets/js/*'
+        - 'assets/css/reset.css' 
         - 'LICENSE'
         - '.gitignore'
         - 'README.md'
