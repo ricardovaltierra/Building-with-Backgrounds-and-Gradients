@@ -12,7 +12,10 @@
 body {
   display: flex;
   margin: 0;
+  background-color: #999999;
   color: #EEEEEE;
+  width: 1841px;
+  height: 1249px;
 }
 
 /* --------------------------main containers--------------------------- */
@@ -72,8 +75,7 @@ header {
 .main-content {
   display: block;
   position: absolute;
-  height: 70%;
-  left: 60px;
+  height: 70%;  
   background-color: coral;
 }
 
@@ -96,6 +98,7 @@ header {
 }
 
 /* inside footer */
+
 
 /* --------------------------child level containers--------------------------- */
 
@@ -192,14 +195,16 @@ ul {
   width: 80%;
 }
 
-.main-txt h1 { 
+.main-txt h1 {
+  width: 94%;
+  margin-left: 3%;
   padding-top: 30px; 
   font-size: 3.5rem;
+  background-color: violet;
 }
 
 .main-txt h2 {
   width: 94%;
-  
   margin-top: 15px;
   margin-left: 3%;
   padding: 10px;
@@ -209,6 +214,8 @@ ul {
 }
 
 .main-txt h3 {
+  width: 94%;
+  margin-left: 3%;
   clear: left;  
   background-color: tomato;
   margin-top: 15px;
