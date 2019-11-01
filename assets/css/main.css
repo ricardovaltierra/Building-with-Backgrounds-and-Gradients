@@ -9,40 +9,34 @@
 
 /* body (viewport) */
 
-body {
-  display: flex;
+body {  
   margin: 0;
-  background-color: #999999;
-  color: #EEEEEE;
-  width: 1841px;
-  height: 1249px;
+  background-color: white;
+  color: #EEEEEE;  
 }
 
 /* --------------------------main containers--------------------------- */
 
 /* page full content size */
 
-main {    
-  width: 1028px;
-  height: 834px;
-  margin: 20px auto;
-  border: 3px #525252 solid;
+main {  
+  height: 834px;  
 }
 
 /* top container */
 
 .top {
   display: block;
-  position: relative;
-  background-color: blueviolet;
-  background-image: url("../img/hero.jpg");
-  background-repeat: no-repeat; 
-  background-position: 50% 95%;
-  padding-top: 80px;
-  height: 450px; 
-  margin: 0;
-  width: 100%;
-  height: 64.5%;
+position: relative;
+background-image: url("../img/hero.jpg");
+background-repeat: no-repeat;
+background-position: 50% 80%;
+background-size: cover;
+padding-top: 80px;
+height: 450px;
+margin: 0;
+width: 100%;
+height: 64.5%;
 }
 
 /* bottom container */
@@ -58,11 +52,13 @@ main {
 /* footer conainer */
 
 footer {  
-  position: relative;  
-  width: 100%;
-  height: 11.5%;
-  background-color: white;
-  padding: 25px;
+  position: relative;
+width: 100%;
+height: 11.5%;
+background-color:
+white;
+padding: 25px;    
+padding-top: 33px;
 }
 
 /* --------------------------2nd level containers--------------------------- */
@@ -76,9 +72,9 @@ header {
 }
 
 .main-content {
-  display: block;
-  position: absolute;
-  height: 70%;     
+  display: block;  
+  height: 70%;    
+  margin: 0 auto; 
 }
 
 /* indise bottom */
@@ -86,32 +82,35 @@ header {
 .grid {
   display: flex;
   position: absolute;
-  background-color: blanchedalmond;
+  background-color:white;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  justify-content: space-between;
 }
 
 .col-1-4 {
   flex: 1;
-  width: 364px;
-  overflow: hidden;  
+  width: 100%;
+  background-size: cover;
+  z-index: 999;
 }
 
 .imrow {
   position: relative;
-  left: -55px;
+  width: 100%;
 }
 
 /* inside footer */
 
 .foot-info {
-  display: flex;
-  color: rgb(110, 110, 110);  
-  font-family: 'Roboto', sans-serif;
-  font-size: 10px;
-  line-height: 1.2;
+  display: block;
+color:
+rgb(110, 110, 110);
+font-family: 'Roboto', sans-serif;
+font-size: 10px;
+line-height: 1.2;
 }
 
 .foot-info a {
@@ -130,7 +129,7 @@ header {
 #fl-clear {
   position: relative;
   clear: both;
-  margin-top: 11px;
+  margin-top: 31px;
 }
 
 /* --------------------------child level containers--------------------------- */
@@ -144,14 +143,13 @@ nav {
   top: 43%;
   width: 95%;
   height: 30px;
-  margin: 0 auto;
-  box-shadow: rgba(0, 0, 0, 0.296875) 0px 1px 2px;
+  margin: 0 auto;  
 }
 
 ul {
-  position: absolute;  
-  float: left;
-  left: 10px;
+  position: relative;  
+  left: 18%;
+  box-shadow: rgba(0, 0, 0, 0.296875) 0px 1px 2px;
 }
 
 .first-ni {
@@ -249,13 +247,13 @@ ul {
   margin-left: 3%;
   padding-top: 10px;
   font-size: 3.5rem;  
-  margin-top: 0px;
+  margin-top: 30px;
   padding-bottom: 10px;
 }
 
 .main-txt h2 {
   width: 94%;
-  margin-top: -2px;
+  margin-top: 10px;
   margin-left: 3%;
   padding: 7px;
   font-size: 1.8rem;
@@ -266,7 +264,7 @@ ul {
   width: 94%;
   margin-left: 3%;
   clear: left;    
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 15px;
   font-size: 1.3rem;
 }
