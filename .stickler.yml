@@ -8,9 +8,6 @@ files:
         - 'assets/css/reset.css' 
         - 'LICENSE'
         - '.gitignore'
-        - 'README.md'
-branches:    
-    ignore:
-        - 'master'        
+        - 'README.md'        
 fixers:
     enable: true
