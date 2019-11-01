@@ -12,7 +12,7 @@
 body {
   margin: 0;
   background-color: white;
-  color: #eeeeee;
+  color: #eee;
 }
 
 /* --------------------------main containers--------------------------- */
@@ -32,7 +32,7 @@ main {
   background-repeat: no-repeat;
   background-position: 50% 80%;
   background-size: cover;
-  padding-top: 80px;  
+  padding-top: 80px;
   margin: 0;
   width: 100%;
   height: 64.5%;
@@ -111,7 +111,8 @@ header {
 }
 
 .foot-info a {
-  text-decoration: none; color: #08c; 
+  text-decoration: none;
+  color: #08c;
 }
 
 #fl-left {
@@ -138,7 +139,7 @@ nav {
   top: 43%;
   width: 95%;
   height: 30px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 ul {
@@ -181,7 +182,7 @@ ul {
 }
 
 .navitem a {
-  color: #eeeeee;
+  color: #eee;
   text-decoration: none;
 }
 
@@ -217,7 +218,7 @@ ul {
   height: 19px;
   margin-top: 6px;
   margin-left: 10px;
-  background-image: linear-gradient(gray, #585858,gray);
+  background-image: linear-gradient(gray, #585858, gray);
   border: 0.5px gray solid;
   border-radius: 10px;
 }
