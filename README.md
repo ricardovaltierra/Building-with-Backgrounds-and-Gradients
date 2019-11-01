@@ -14,10 +14,10 @@ Page design with background images and gradient elements
 
 ## About The Project
 
-![Screenshot Image](images/screenshot.png)
+![Screenshot Image](assets/img/screenshot.png)
 
-This assignment consists of making a clone of a New York Times article page.<br>
-https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
+This project consists of building a webpage using images as a background and adding gradients to elements.
+https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients
 
 ### Built With 
 
@@ -47,22 +47,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Commit Summary
 * Initial commit
-* setup the project
-* html page format and content
-* add nav img & init the navbar
-* reset CSS added & beginning with the main content design
-* finish the header
-* format parragraph and image container made
-* fixed the nav & start the additional-reading
-* text content format & text bottom design
-* finish the additional-reading
-* text atricle links finished
-* fix the additional-reading
-* modifications to grid inphographic and text article adjustment
-* start the footer
-* grid container design and grid items with text design
-* inphographic grid styling and sizing
-* finish the footer and add img and video
-* social upper section fixed and grid title completed
-* update the Readme.md
-
+* setup repository
+* README.md edition
+* main and body positioning with css structure
+* css block design
+* block format and position for main-content
+* main-content positioning childs
+* footer and grid section finished / image insertion and format
+* HTML & CSS validation
