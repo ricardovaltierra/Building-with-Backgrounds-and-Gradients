@@ -1,0 +1,264 @@
+/* General rules */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main containers */
+
+/* body (viewport) */
+
+body {
+  margin: 0;
+  background-color: white;
+  color: #eee;
+}
+
+/* --------------------------main containers--------------------------- */
+
+/* page full content size */
+
+main {
+  height: 834px;
+}
+
+/* top container */
+
+.top {
+  display: block;
+  position: relative;
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+  background-size: cover;
+  padding-top: 80px;
+  margin: 0;
+  width: 100%;
+  height: 64.5%;
+}
+
+/* bottom container */
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 24%;
+}
+
+/* footer conainer */
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 11.5%;
+  background-color: white;
+  padding: 25px;
+  padding-top: 33px;
+}
+
+/* --------------------------2nd level containers--------------------------- */
+
+/* inside top */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 27%;
+}
+
+.main-content {
+  display: block;
+  height: 70%;
+  margin: 0 auto;
+}
+
+/* indise bottom */
+
+.grid {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+
+.col-1-4 {
+  flex: 1;
+  width: 100%;
+  background-size: cover;
+  z-index: 999;
+}
+
+.imrow {
+  position: relative;
+  width: 100%;
+}
+
+/* inside footer */
+
+.foot-info {
+  display: block;
+  color: rgb(110, 110, 110);
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.foot-info a {
+  text-decoration: none;
+  color: #08c;
+}
+
+#fl-left {
+  float: left;
+  margin-right: 100px;
+}
+
+#fl-right {
+  float: right;
+}
+
+#fl-clear {
+  position: relative;
+  clear: both;
+  margin-top: 31px;
+}
+
+/* --------------------------child level containers--------------------------- */
+
+/* navigation bar (inside header) */
+nav {
+  display: flex;
+  position: relative;
+  top: 43%;
+  width: 95%;
+  height: 30px;
+  margin: 0 auto;
+}
+
+ul {
+  position: relative;
+  left: 18%;
+  box-shadow: rgba(0, 0, 0, 0.296875) 1px 1px 2px;
+}
+
+.first-ni {
+  float: left;
+  width: 103px;
+  height: 36px;
+  border: 1px rgb(51, 51, 51) solid;
+  background-color: #636462;
+  background-image: linear-gradient(gray, #585858, gray);
+  list-style: none;
+  text-align: center;
+  padding-top: 5px;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+#mcicon {
+  z-index: 99;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.navitem {
+  float: left;
+  width: 103px;
+  height: 36px;
+  border: 1px rgb(51, 51, 51) solid;
+  background-color: #636462;
+  background-image: linear-gradient(gray, #585858, gray);
+  list-style: none;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.navitem a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.navitem span {
+  font-size: 12px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* search bar navitem */
+
+.last-ni {
+  float: left;
+  width: 132px;
+  height: 36px;
+  border: 1px rgb(51, 51, 51) solid;
+  background-color: #636462;
+  background-image: linear-gradient(gray, #585858, gray);
+  list-style: none;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+/* search bar inside nav */
+
+.navitem div {
+  position: relative;
+  width: 15px;
+  height: 14px;
+}
+
+.last-ni input {
+  width: 106px;
+  height: 19px;
+  margin-top: 6px;
+  margin-left: 10px;
+  background-image: linear-gradient(gray, #585858, gray);
+  border: 0.5px gray solid;
+  border-radius: 10px;
+}
+
+/* main-content section */
+.main-txt {
+  position: relative;
+  text-align: center;
+  font-family: Montserrat, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.second {
+  z-index: 99;
+  width: 100%;
+  text-align: center;
+}
+
+.main-txt h1 {
+  width: 94%;
+  margin-left: 3%;
+  padding-top: 10px;
+  font-size: 3.5rem;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.main-txt h2 {
+  width: 94%;
+  margin-top: 10px;
+  margin-left: 3%;
+  padding: 7px;
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+
+.main-txt h3 {
+  width: 94%;
+  margin-left: 3%;
+  clear: left;
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 1.3rem;
+}
