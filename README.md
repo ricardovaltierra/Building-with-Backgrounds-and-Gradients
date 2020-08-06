@@ -33,7 +33,7 @@ Apple-clone page design with the use of CSS image and gradient resources applica
 
 ## Preview
 
-<img src=".assets/img/screenshot.png" alt="Page clone" width="380" />
+<img src="assets/img/screenshot.png" alt="Page clone" width="380" />
 
 > [Live](https://small-toy-app.herokuapp.com/)
 
