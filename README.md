@@ -1,4 +1,4 @@
-# Backgrounds-and-Gradients
+# Backgrounds And Gradients
 
 > An HMLT & CSS3 Project.
 
