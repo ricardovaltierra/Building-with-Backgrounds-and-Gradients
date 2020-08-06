@@ -1,6 +1,5 @@
 # Building-with-Backgrounds-and-Gradients
-Page design with background images and gradient elements
-
+Apple-clone page design with the use of CSS image and gradient resources application.
 
 ## Table of Contents
 
