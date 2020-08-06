@@ -29,7 +29,7 @@
 
 ## About The Project
 
-Apple-clone page design with the use of CSS image and gradient resources application. Project specification [here.](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
+Apple-clone page design with the use of CSS image and gradient resources application. Project specifications [here.](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
 
 ## Preview
 
