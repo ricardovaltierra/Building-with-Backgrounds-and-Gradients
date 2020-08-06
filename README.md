@@ -41,9 +41,9 @@ Feel free to use and recommend it.
 
 ### Built With
 
-* [HTML5](https://www.ruby-lang.org/en/news/2019/08/28/ruby-2-6-4-released/)
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
-* [CSS3](https://rubygems.org/gems/rails/versions/5.1.6)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3)
 
 * CSS properties:
     * Building backgrounds with colors, images, and gradients
