@@ -25,9 +25,9 @@ https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-back
 * CSS3
 * Github
 <br>
-* building backgrounds with colors, images and gradients
+* building backgrounds with colors, images, and gradients
 * use of the box-model
-* allignment properties
+* alignment properties
 * positioning
 
 ## Getting Started
